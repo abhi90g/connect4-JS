@@ -1,0 +1,65 @@
+body{
+    text-align: center
+}
+
+#connect4game {
+    background-color: yellow;
+    height: 464px;
+    width: 505px;
+    margin: 20px auto;
+    border: 15px solid darkslategrey;
+}
+
+.row {
+    background-color: yellow;
+}
+
+.col {
+    /* width: 80px;
+    height: 80px; */
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    border: 3px solid darkgray;
+}
+
+.col.hover-red{
+    background-color: red;
+    opacity: 0.5;
+}
+
+.col.hover-black{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.col.red{
+    background-color: red;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    /* animation-name:  */
+}
+
+.col.black{
+    background-color: black;
+}
+
+.col.col-empty {
+    cursor: pointer;
+}
+
+.startover {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    background-color: cadetblue;
+    box-shadow: 0 0 4px #999;
+    outline: none;
+    transition: all 0.5s;
+}
